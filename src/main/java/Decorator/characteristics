@@ -1,0 +1,5 @@
+1. Component Interface – The interface or abstract class defining the methods that will be implemented (Pizza).
+2. Component Implementation – The basic implementation of the component interface (PlainPizza).
+3. Decorator – Decorator class implements the component interface and it has a HAS-A relationship with the component interface.
+The component variable should be accessible to the child decorator classes (ToppingDecorator)
+4. Concrete Decorators – Extending the base decorator functionality and modifying the component behavior accordingly(Mozzarella, TomatoSauce)

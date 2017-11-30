@@ -1,0 +1,6 @@
+The Facade pattern basically says that you should simplify your methods so that much of what is done is in the background.
+In technical terms you should decouple the client from the sub components needed to perform an operation.
+
+1. Facade design pattern should be applied for similar kind of interfaces,
+its purpose is to provide a single interface rather than multiple interfaces that does the similar kind of jobs.
+2. Facade design pattern can be applied at any point of development, usually when the number of interfaces grow and system gets complex.
