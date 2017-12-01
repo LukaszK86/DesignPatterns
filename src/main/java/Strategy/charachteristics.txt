@@ -1,0 +1,7 @@
+In Strategy pattern, a class behavior or its algorithm can be changed at run time. This type of design pattern comes under behavior pattern.
+In Strategy pattern, we create objects which represent various strategies and a context object whose behavior varies as per its strategy object.
+The strategy object changes the executing algorithm of the context object.
+
+1.Defines a set of encapsulated algorithms that can be swapped to carry out a specific behaviour.
+2.The Strategy is simply implemented as an interface, so that we can swap Concrete Strategy in and out without effecting our Context.
+3.A good use of the Strategy pattern would be saving files in different formats, running various sorting algorithms, or file compression.
