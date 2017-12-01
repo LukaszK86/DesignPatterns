@@ -1,0 +1,9 @@
+The general concept behind dependency injection is called Inversion of Control.
+According to this concept a class should not configure its dependencies statically but should be configured from the outside.
+A Java class has a dependency on another class, if it uses an instance of this class. We call this a _class dependency.
+For example, a class which accesses a logger service has a dependency on this service class.
+
+Dependency injection can be performed on:
+1.the constructor of the class (construction injection)
+2.a field (field injection)
+3.the parameters of a method (method injection)
